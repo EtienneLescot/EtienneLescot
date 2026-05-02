@@ -26,7 +26,7 @@ I build the infrastructure layer for agentic software: code-first workflow autom
 
 ## Operating range
 
-`TypeScript` `Python` `FastAPI` `Kubernetes` `AWS` `WebRTC` `n8n` `LLMs` `RAG` `GitOps` `SaaS architecture`
+`Agentic systems` `MCP` `Agent skills` `Workflow orchestration` `Realtime AI interfaces` `Cloud-native platforms` `Developer experience` `Open-source infrastructure`
 
 ## Contact
 
