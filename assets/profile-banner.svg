@@ -1,57 +1,128 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Etienne Lescot - AI systems architect</title>
-  <desc id="desc">A dark technical banner with connected system nodes for agentic automation, grounded agents, realtime voice, and open-source infrastructure.</desc>
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Etienne Lescot - agentic infrastructure and realtime AI systems</title>
+  <desc id="desc">A high-contrast technical hero image showing agentic automation, runtime graphs, voice signals, and open-source infrastructure.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#070A0E"/>
-      <stop offset="0.48" stop-color="#101820"/>
-      <stop offset="1" stop-color="#070A0E"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070A"/>
+      <stop offset="0.36" stop-color="#0B1117"/>
+      <stop offset="0.67" stop-color="#11130B"/>
+      <stop offset="1" stop-color="#06070A"/>
     </linearGradient>
-    <linearGradient id="accent" x1="250" y1="64" x2="1110" y2="296" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#67E8F9"/>
-      <stop offset="0.52" stop-color="#A3E635"/>
-      <stop offset="1" stop-color="#FDE047"/>
+    <linearGradient id="title-gradient" x1="70" y1="118" x2="690" y2="206" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="0.58" stop-color="#D9F99D"/>
+      <stop offset="1" stop-color="#67E8F9"/>
     </linearGradient>
-    <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.4 0 0 0 0 0.9 0 0 0 0 0.75 0 0 0 0.32 0"/>
+    <linearGradient id="circuit" x1="612" y1="72" x2="1212" y2="342" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="0.38" stop-color="#A3E635"/>
+      <stop offset="0.76" stop-color="#FDE047"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="650" y1="88" x2="1196" y2="338" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121A22"/>
+      <stop offset="1" stop-color="#080B10"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.44 0 0 0 0 0.92 0 0 0 0 0.72 0 0 0 0.35 0"/>
       <feBlend in="SourceGraphic" mode="screen"/>
     </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#25313B" stroke-width="1" opacity="0.38"/>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#24303A" stroke-width="1" opacity="0.34"/>
     </pattern>
+    <pattern id="microgrid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M8 0H0V8" stroke="#303A43" stroke-width="0.6" opacity="0.3"/>
+    </pattern>
+    <clipPath id="clip">
+      <rect width="1280" height="420" rx="30"/>
+    </clipPath>
   </defs>
 
-  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1278" height="358" rx="27" stroke="#24313A" stroke-width="2"/>
-  <rect width="1280" height="360" rx="28" fill="url(#grid)" opacity="0.55"/>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="420" fill="url(#background)"/>
+    <rect width="1280" height="420" fill="url(#grid)" opacity="0.58"/>
+    <path d="M-60 342C118 250 228 334 390 270C548 208 640 64 814 104C968 140 1042 268 1350 104" stroke="#1F2937" stroke-width="34" opacity="0.26"/>
+    <path d="M-20 356C126 284 236 332 388 276C548 216 650 94 812 120C976 146 1068 250 1300 138" stroke="url(#circuit)" stroke-width="2" opacity="0.58"/>
+    <path d="M36 368C190 300 304 340 448 270C570 212 670 126 812 148C980 174 1064 240 1236 174" stroke="#94A3B8" stroke-width="1" stroke-dasharray="2 12" opacity="0.36"/>
 
-  <path d="M756 102C820 46 910 48 976 92C1042 136 1120 136 1195 82" stroke="url(#accent)" stroke-width="2" opacity="0.52"/>
-  <path d="M762 244C838 302 932 300 1000 252C1066 206 1138 202 1200 248" stroke="url(#accent)" stroke-width="2" opacity="0.36"/>
-  <path d="M828 178H1158" stroke="#4B5563" stroke-width="1" stroke-dasharray="6 10" opacity="0.8"/>
+    <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+      <text x="72" y="80" fill="#94A3B8" font-size="13" font-weight="700" letter-spacing="5">OPEN-SOURCE AGENTIC INFRASTRUCTURE</text>
+      <text x="70" y="156" fill="url(#title-gradient)" font-size="66" font-weight="820">Etienne Lescot</text>
+      <text x="74" y="202" fill="#E5E7EB" font-size="25" font-weight="520">AI systems architect. Agents, automation, voice.</text>
+      <text x="76" y="248" fill="#9CA3AF" font-size="17">Code-first workflows. Grounded runtimes. Production infrastructure.</text>
 
-  <g filter="url(#soft-glow)">
-    <circle cx="838" cy="178" r="7" fill="#67E8F9"/>
-    <circle cx="1004" cy="116" r="7" fill="#A3E635"/>
-    <circle cx="1094" cy="232" r="7" fill="#FDE047"/>
-    <circle cx="1190" cy="178" r="7" fill="#67E8F9"/>
-  </g>
-
-  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
-    <text x="72" y="94" fill="#9CA3AF" font-size="18" letter-spacing="4">OPEN SOURCE / AGENTIC AI / REALTIME SYSTEMS</text>
-    <text x="72" y="160" fill="#F9FAFB" font-size="58" font-weight="760">Etienne Lescot</text>
-    <text x="74" y="208" fill="#D1D5DB" font-size="26" font-weight="440">AI systems architect building software for agents and humans.</text>
-    <text x="74" y="260" fill="#94A3B8" font-size="18">code-first automation · grounded agents · low-latency voice · SaaS infrastructure</text>
-
-    <g font-size="15" font-weight="620">
-      <rect x="812" y="142" width="112" height="44" rx="10" fill="#0F172A" stroke="#334155"/>
-      <text x="836" y="170" fill="#E5E7EB">n8n-as-code</text>
-      <rect x="956" y="80" width="96" height="44" rx="10" fill="#0F172A" stroke="#334155"/>
-      <text x="985" y="108" fill="#E5E7EB">YAGR</text>
-      <rect x="1036" y="198" width="116" height="44" rx="10" fill="#0F172A" stroke="#334155"/>
-      <text x="1060" y="226" fill="#E5E7EB">Voice AI</text>
-      <rect x="1128" y="142" width="100" height="44" rx="10" fill="#0F172A" stroke="#334155"/>
-      <text x="1154" y="170" fill="#E5E7EB">GitOps</text>
+      <g font-size="13" font-weight="760" letter-spacing="1.4">
+        <rect x="76" y="292" width="142" height="34" rx="17" fill="#101820" stroke="#2F3A44"/>
+        <text x="98" y="314" fill="#D9F99D">N8N-AS-CODE</text>
+        <rect x="232" y="292" width="104" height="34" rx="17" fill="#101820" stroke="#2F3A44"/>
+        <text x="257" y="314" fill="#67E8F9">YAGR</text>
+        <rect x="350" y="292" width="146" height="34" rx="17" fill="#101820" stroke="#2F3A44"/>
+        <text x="374" y="314" fill="#FDE047">VOICE AI</text>
+      </g>
     </g>
+
+    <g transform="translate(632 54)" filter="url(#soft-shadow)">
+      <path d="M36 44L322 0L570 94L540 300L248 352L0 226L36 44Z" fill="url(#plate)" stroke="#334155" stroke-width="1.2"/>
+      <path d="M36 44L322 0L570 94L540 300L248 352L0 226L36 44Z" fill="url(#microgrid)" opacity="0.5"/>
+
+      <path d="M62 104L172 70L272 104L374 78L498 132" stroke="#64748B" stroke-width="1.2" stroke-dasharray="5 8" opacity="0.78"/>
+      <path d="M104 222L206 170L318 198L408 156L506 214" stroke="#64748B" stroke-width="1.2" stroke-dasharray="5 8" opacity="0.78"/>
+      <path d="M172 70L206 170M272 104L318 198M374 78L408 156M498 132L506 214M62 104L104 222" stroke="#475569" stroke-width="1" opacity="0.74"/>
+
+      <g filter="url(#glow)">
+        <path d="M62 104L172 70L272 104L374 78L498 132" stroke="url(#circuit)" stroke-width="2.4"/>
+        <path d="M104 222L206 170L318 198L408 156L506 214" stroke="url(#circuit)" stroke-width="2.4"/>
+      </g>
+
+      <g>
+        <rect x="30" y="82" width="64" height="44" rx="10" fill="#071018" stroke="#67E8F9" stroke-opacity="0.72"/>
+        <path d="M48 104H76M48 112H66" stroke="#67E8F9" stroke-width="2" stroke-linecap="round"/>
+
+        <rect x="140" y="48" width="64" height="44" rx="10" fill="#0C1209" stroke="#A3E635" stroke-opacity="0.8"/>
+        <path d="M158 70H186M158 78H176" stroke="#A3E635" stroke-width="2" stroke-linecap="round"/>
+
+        <rect x="240" y="82" width="64" height="44" rx="10" fill="#111007" stroke="#FDE047" stroke-opacity="0.72"/>
+        <path d="M256 104C260 94 266 94 270 104C274 114 280 114 284 104" stroke="#FDE047" stroke-width="2.2" stroke-linecap="round"/>
+
+        <rect x="342" y="56" width="64" height="44" rx="10" fill="#120B10" stroke="#FB7185" stroke-opacity="0.72"/>
+        <path d="M360 78L374 66L388 78L374 90Z" stroke="#FB7185" stroke-width="2" stroke-linejoin="round"/>
+
+        <rect x="466" y="110" width="64" height="44" rx="10" fill="#071018" stroke="#67E8F9" stroke-opacity="0.72"/>
+        <path d="M484 132H512M492 124V140M504 124V140" stroke="#67E8F9" stroke-width="2" stroke-linecap="round"/>
+
+        <rect x="72" y="200" width="64" height="44" rx="10" fill="#0C1209" stroke="#A3E635" stroke-opacity="0.78"/>
+        <path d="M90 222H118M104 208V236" stroke="#A3E635" stroke-width="2" stroke-linecap="round"/>
+
+        <rect x="174" y="148" width="64" height="44" rx="10" fill="#071018" stroke="#67E8F9" stroke-opacity="0.72"/>
+        <path d="M192 170L200 162L208 170L216 162L224 170" stroke="#67E8F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <rect x="286" y="176" width="64" height="44" rx="10" fill="#111007" stroke="#FDE047" stroke-opacity="0.72"/>
+        <path d="M304 198H332M318 184V212" stroke="#FDE047" stroke-width="2" stroke-linecap="round"/>
+
+        <rect x="376" y="134" width="64" height="44" rx="10" fill="#120B10" stroke="#FB7185" stroke-opacity="0.72"/>
+        <path d="M394 156C402 144 414 144 422 156C414 168 402 168 394 156Z" stroke="#FB7185" stroke-width="2"/>
+
+        <rect x="474" y="192" width="64" height="44" rx="10" fill="#071018" stroke="#67E8F9" stroke-opacity="0.72"/>
+        <path d="M490 214H522M498 206L506 222L514 206" stroke="#67E8F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+
+      <g transform="translate(150 258)">
+        <path d="M0 26C18 26 18 6 36 6C54 6 54 46 72 46C90 46 90 6 108 6C126 6 126 46 144 46C162 46 162 26 180 26" stroke="#67E8F9" stroke-width="2" stroke-linecap="round" opacity="0.86"/>
+        <path d="M0 26H180" stroke="#334155" stroke-width="1" opacity="0.75"/>
+        <text x="214" y="31" fill="#94A3B8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="2">REALTIME VOICE LOOP</text>
+      </g>
+
+      <g font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="780" letter-spacing="1.5">
+        <text x="34" y="298" fill="#64748B">SCHEMA</text>
+        <text x="34" y="316" fill="#64748B">DIFF</text>
+        <text x="34" y="334" fill="#64748B">DEPLOY</text>
+      </g>
+    </g>
+
+    <rect x="0.8" y="0.8" width="1278.4" height="418.4" rx="29.2" stroke="#2D3742" stroke-width="1.6"/>
   </g>
 </svg>
