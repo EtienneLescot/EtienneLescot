@@ -1,6 +1,5 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner.svg">
-  <img src="./assets/profile-banner.svg" alt="Etienne Lescot - AI systems architect building agentic automation, grounded agents, and realtime voice infrastructure." width="100%">
+  <img src="./assets/profile-hero.png" alt="Etienne Lescot - AI systems architect for n8n-as-code, YAGR, and Voice AI." width="100%">
 </picture>
 
 # Etienne Lescot
