@@ -17,6 +17,12 @@ I build the infrastructure layer for agentic software: code-first workflow autom
 | [Agent Fabric](https://github.com/EtienneLescot/agent-fabric) | Notes and architecture patterns for the contracts emerging across modern coding agents. |
 | [openclaw-stimm-voice](https://github.com/EtienneLescot/openclaw-stimm-voice) | Realtime voice conversations as a plugin layer: low-latency UX, WebRTC constraints, and agent interfaces. |
 
+## Open-source contributions
+
+| Project | Contribution |
+| --- | --- |
+| [OpenScreen](https://github.com/siddharthvaddem/openscreen) | Open-source contributor to OpenScreen, a free alternative to Screen Studio for creating product demos. Second-largest contributor to the repository, with contributions across Electron, React, TypeScript, and PixiJS. |
+
 ## Direction
 
 - Agentic automation that behaves like software, not screenshots.
