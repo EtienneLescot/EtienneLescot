@@ -12,21 +12,22 @@
 
 ## Selected projects
 
+### [n8n-as-code](https://github.com/EtienneLescot/n8n-as-code) — ★ 1.3k · creator
+
+Git-native workflow development for n8n — full node schemas, typed workflows, template discovery, and agent-friendly automation tooling.
+
+`n8n` `workflow-as-code` `agent tooling`
+
 ### [OpenScreen](https://github.com/siddharthvaddem/openscreen) — ★ 38k · core maintainer
 
 A free alternative to Screen Studio for product demos. Contributions spanning Electron, React, TypeScript, and PixiJS.
 
 `Electron` `React` `TypeScript` `PixiJS`
 
-### [openscreen · official spin-off](https://github.com/EtienneLescot/openscreen) — · maintainer
+### [OpenScreen · official spin-off](https://github.com/EtienneLescot/openscreen) — · maintainer
 
 Official fork of the OpenScreen project, independently maintained.
 
-### [n8n-as-code](https://github.com/EtienneLescot/n8n-as-code) — ★ 1.3k · creator
-
-Git-native workflow development for n8n — full node schemas, typed workflows, template discovery, and agent-friendly automation tooling.
-
-`n8n` `workflow-as-code` `agent tooling`
 
 ---
 
