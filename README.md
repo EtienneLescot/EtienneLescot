@@ -18,7 +18,7 @@ Git-native workflow development for n8n — full node schemas, typed workflows, 
 
 `n8n` `workflow-as-code` `agent tooling`
 
-### [OpenScreen](https://github.com/siddharthvaddem/openscreen) — ★ 38k · core maintainer
+### [OpenScreen](https://github.com/siddharthvaddem/openscreen) — ★ 38k · core contributor
 
 A free alternative to Screen Studio for product demos. Contributions spanning Electron, React, TypeScript, and PixiJS.
 
