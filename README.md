@@ -24,9 +24,11 @@ A free alternative to Screen Studio for product demos. Contributions spanning El
 
 `Electron` `React` `TypeScript` `PixiJS`
 
-### [OpenScreen · official spin-off](https://github.com/EtienneLescot/openscreen) — · maintainer
+### [OpenScreen · official spin-off](https://github.com/getopenscreen/openscreen) — · maintainer
 
 Official fork of the OpenScreen project, independently maintained.
+> "community-driven spin-off led by one of the core contributors"
+> — [@siddharthvaddem](https://github.com/siddharthvaddem), original OpenScreen maintainer
 
 
 ---
